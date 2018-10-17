@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:corejsf="http://corejsf.com/facelets">
+<head>
+<title>IGNORED</title>
+</head>
+<body>
+	<ui:composition>
+		<h:form>
+		 
+			<corejsf:planet name="mercury"
+				image="#{resources['images:Mercury.gif']}" label="#{msgs.mercury}" />
+			<corejsf:planet name="venus" image="#{resources['images:Venus.gif']}"
+				label="#{msgs.venus}" />	
+			<corejsf:planet name="earth" image="#{resources['images:Earth.gif']}"
+				label="#{msgs.earth}" />
+			<corejsf:planet name="mars" image="#{resources['images:Mars.gif']}"
+				label="#{msgs.mars}" />
+			<corejsf:planet name="jupiter"
+				image="#{resources['images:Jupiter.gif']}" label="#{msgs.jupiter}" />
+			<corejsf:planet name="saturn"
+				image="#{resources['images:Saturn.gif']}" label="#{msgs.saturn}" />
+			<corejsf:planet name="uranus"
+				image="#{resources['images:Uranus.gif']}" label="#{msgs.uranus}" />
+			<corejsf:planet name="neptune"
+				image="#{resources['images:Neptune.gif']}" label="#{msgs.neptune}" />
+				
+				<!--  
+				<h:graphicImage value="resources/images/Mercury.gif" />
+				<h:graphicImage value="resources/images/Venus.gif" />
+				<h:graphicImage value="resources/images/Earth.gif" />
+				<h:graphicImage value="resources/images/Mars.gif" />
+				<h:graphicImage value="resources/images/Jupiter.gif" />
+				<h:graphicImage value="resources/images/Saturn.gif" />
+				<h:graphicImage value="resources/images/Uranus.gif" />
+				<h:graphicImage value="resources/images/Neptune.gif" />
+				-->
+		</h:form>
+	</ui:composition>
+</body>
+</html>
